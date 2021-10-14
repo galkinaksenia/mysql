@@ -1,2 +1,0 @@
-SELECT COUNT(TIMEDIFF(CURDATE(), g03u24_birth)) FROM g03u24_pet WHERE g03u24_death IS NULL;
-SELECT COUNT(g03u24_name) FROM g03u24_pet WHERE g03u24_owner = 'Benny';
